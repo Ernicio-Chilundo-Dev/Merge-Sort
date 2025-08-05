@@ -31,5 +31,13 @@ void merge(int arr[], int left, int mid, int right)
         }
         k++;
     }
+
+    // Cooy remaining elements of L[]
+    while (i < n1)
+    {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
     
 }
